@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 13: Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>Accede a tu Área Clientes</header>
+        <form action="pagina.php">
+        <p class="documento">Elige tu documento
+            <br>
+            <br>
+            <label>
+            <input type="radio" class="formulario" value="DNI_tarjeta"> DNI o Tarjeta de Residencia
+            <br>
+            <br>
+            <input type="radio" class="formulario" value="Pasaporte"> Pasaporte
+            </label>
+        </p>
+        <p class="documento"> Nº de Documento
+            <br>
+            <input type="text" class="texto_documento" placeholder="DNI o Tarjeta de Residencia">
+        </p>
+        <br>
+        <p class="documento"> Fecha de Nacimiento
+            <br>
+            <input type="date" value="fecha_nacimiento" class="texto_documento">
+        </p>
+        <br>
+        <label>
+            <input type="checkbox" value="recordar"><span class="documento">Recordar</span>
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Entrar" class="enviar">
+        
+        </form>
+    </section>
+</body>
+</html>
